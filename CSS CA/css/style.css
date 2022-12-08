@@ -1,0 +1,12 @@
+.searchbar {
+  display: flex;
+  width: 40rem;
+  height: 3rem;
+}
+
+.headerlogo {
+  color: #44AC20;
+  font-family: "Rubik", sans-serif;
+  margin-left: 3rem;
+  padding-right: 2rem;
+}/*# sourceMappingURL=style.css.map */

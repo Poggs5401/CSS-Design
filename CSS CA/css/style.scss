@@ -1,0 +1,36 @@
+$theme-colors: (
+  "fgreen": #44AC20
+);
+
+.searchbar{
+    display:flex;
+    width: 40rem;
+    height: 3rem;
+}
+
+.headerlogo{
+    color: #44AC20;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 3rem;
+    padding-right: 2rem;
+}
+
+.searchinput{
+    outline: none;
+}
+
+.searchlogo{
+    color: #44AC20;
+}
+
+.login{
+    color: #44AC20;
+    font-family: 'Rubik', sans-serif;
+}
+
+.signup{
+    color: #44AC20;
+    font-family: 'Rubik', sans-serif;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
