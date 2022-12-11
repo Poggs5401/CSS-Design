@@ -16,6 +16,8 @@
 .searchinput {
   height: 3.5rem;
   width: 35rem;
+  outline: none;
+  box-shadow: none;
 }
 
 .login {
@@ -24,6 +26,69 @@
 
 .signup {
   color: #44ac20;
+}
+
+.findyourpath {
+  font-family: "Rubik", sans-serif;
+}
+
+.findyoureventpath {
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  padding-top: 10rem;
+}
+
+.eventpath {
+  font-weight: 700;
+}
+
+.mypathbutton {
+  width: 200px;
+  height: 4rem;
+  text-align: left;
+  color: white;
+  gap: 3rem;
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+}
+
+.arrow {
+  font-size: 24px;
+}
+
+.trendingindublin {
+  padding-top: 6rem;
+  gap: 1rem;
+}
+
+.trendingin {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.downchevron {
+  font-size: 21px;
+}
+
+.dublin {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.rectangle {
+  height: 5px;
+  width: 200px;
+  background-color: #EDEDF1;
+}
+
+.trendingindublin {
+  padding-top: 10rem;
+  padding-left: 25rem;
 }
 
 /*!
