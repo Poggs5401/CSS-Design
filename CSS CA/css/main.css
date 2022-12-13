@@ -83,12 +83,38 @@
 .rectangle {
   height: 5px;
   width: 200px;
-  background-color: #EDEDF1;
+  background-color: #ededf1;
 }
 
 .trendingindublin {
   padding-top: 10rem;
   padding-left: 25rem;
+  padding-bottom: 5rem;
+}
+
+.eventcard {
+  width: 20.625rem;
+  margin-left: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.cardshare {
+  gap: 8rem;
+}
+
+.cardlink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardlink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.eventcardrow {
+  justify-content: center;
+  padding-top: 1rem;
 }
 
 /*!
