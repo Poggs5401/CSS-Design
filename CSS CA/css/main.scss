@@ -158,9 +158,77 @@ $border-radius-pill: 3rem;
   color: inherit;
 }
 
+.card:hover{
+  background-color: #f1f1f1;
+}
+
 .eventcardrow {
   justify-content: center;
   padding-top: 1rem;
+}
+
+.footer{
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  gap: 10rem;
+}
+
+.footerheader{
+margin-left: 2rem;
+padding-top: 0.5rem;
+}
+
+.footernav{
+  gap: 3rem;
+  padding-top: 1rem;
+}
+
+.epheaderimage{
+  width: 1084px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+
+.epdetails{
+  font-family: "Rubik", sans-serif;
+  padding-top: 5rem;
+  padding-left:25rem;
+}
+
+.epsubheader{
+  gap: 6rem;
+  padding-top: 2rem;
+}
+
+.subheader{
+  width: 650px;
+}
+
+.epheader{
+  font-size: 54px;
+}
+
+.ticketwidget{
+  width: 306px;
+  height: 147px;
+  text-align: center;
+  border: 1px solid #EFEFEF;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.widgetcontent{
+  padding-top: 2rem;
+  font-weight: 600;
+}
+
+.ticketbtn{
+  width: 185px;
+  height: 40px
 }
 
 // import bootstrap - ALWAYS at very end
