@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <title>Event Path | Checkout</title>
+  </head>
+  <body class="checkout">
+    <nav class="navbar bg-white">
+      <div class="d-flex align-items-center">
+        <a class="navbarlogo text-fgreen" href="index.html">Event Path</a>
+
+        <form class="d-flex" role="search">
+          <button
+            class="btn my-2 my-sm-0 bg-light border-0 text-fgreen"
+            type="submit"
+          >
+            <i class="bi bi-search"></i>
+          </button>
+          <input
+            class="me-2 border-0 bg-light searchinput"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+      </div>
+      <div class="d-flex ms-auto me-3">
+        <p class="login m-0 me-3">Log In</p>
+        <p class="signup m-0 me-3">Sign Up</p>
+      </div>
+    </nav>
+    <section class="h-100 h-custom">
+      <div class="container h-100 py-5">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col" class="h5">Tickets for this Event</th>
+                    <th scope="col">Format</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/CSS CA/images/ticket.png"
+                          class="img-fluid rounded-3"
+                          alt="Ticket"
+                        />
+                        <div class="flex-column ms-4">
+                          <p class="mb-2">Adult</p>
+                          <p class="mb-0">21+</p>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">Digital</p>
+                    </td>
+                    <td class="align-middle">
+                      <div class="d-flex flex-row">
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        >
+                          <i class="fas fa-minus"></i>
+                        </button>
+
+                        <input
+                          id="form1"
+                          min="0"
+                          name="quantity"
+                          value="2"
+                          type="number"
+                          class="form-control form-control-sm"
+                          style="width: 50px"
+                        />
+
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">$17.99</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/CSS CA/images/ticket.png"
+                          class="img-fluid rounded-3"
+                          alt="Ticket"
+                        />
+                        <div class="flex-column ms-4">
+                          <p class="mb-2">Student</p>
+                          <p class="mb-0">18 - 21</p>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">Digital</p>
+                    </td>
+                    <td class="align-middle">
+                      <div class="d-flex flex-row">
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        >
+                          <i class="fas fa-minus"></i>
+                        </button>
+
+                        <input
+                          id="form1"
+                          min="0"
+                          name="quantity"
+                          value="1"
+                          type="number"
+                          class="form-control form-control-sm"
+                          style="width: 50px"
+                        />
+
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">$11.99</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/CSS CA/images/ticket.png"
+                          class="img-fluid rounded-3"
+                          alt="Ticket"
+                        />
+                        <div class="flex-column ms-4">
+                          <p class="mb-2">Teen</p>
+                          <p class="mb-0">13 - 17</p>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">Digital</p>
+                    </td>
+                    <td class="align-middle">
+                      <div class="d-flex flex-row">
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        >
+                          <i class="fas fa-minus"></i>
+                        </button>
+
+                        <input
+                          id="form1"
+                          min="0"
+                          name="quantity"
+                          value="1"
+                          type="number"
+                          class="form-control form-control-sm"
+                          style="width: 50px"
+                        />
+
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">$9.99</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      <div class="d-flex align-items-center">
+                        <img
+                          src="/CSS CA/images/ticket.png"
+                          class="img-fluid rounded-3"
+                          alt="Ticket"
+                        />
+                        <div class="flex-column ms-4">
+                          <p class="mb-2">Child</p>
+                          <p class="mb-0">< 12</p>
+                        </div>
+                      </div>
+                    </th>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">Digital</p>
+                    </td>
+                    <td class="align-middle">
+                      <div class="d-flex flex-row">
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        >
+                          <i class="fas fa-minus"></i>
+                        </button>
+
+                        <input
+                          id="form1"
+                          min="0"
+                          name="quantity"
+                          value="2"
+                          type="number"
+                          class="form-control form-control-sm"
+                          style="width: 50px"
+                        />
+
+                        <button
+                          class="btn btn-link px-2"
+                          onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </td>
+                    <td class="align-middle">
+                      <p class="mb-0" style="font-weight: 500">$6.99</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div
+              class="card shadow-2-strong mb-5 mb-lg-0"
+              style="border-radius: 16px"
+            >
+              <div class="card-body p-4">
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 col-xl-3 mb-4 mb-md-0">
+                    <form>
+                      <div class="d-flex flex-row pb-3">
+                        <div class="d-flex align-items-center pe-2">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="radioNoLabel"
+                            id="radioNoLabel1v"
+                            value=""
+                            aria-label="..."
+                            checked
+                          />
+                        </div>
+                        <div class="rounded border w-100 p-3">
+                          <p class="d-flex align-items-center mb-0">
+                            <i
+                              class="fab fa-cc-mastercard fa-2x text-dark pe-2"
+                            ></i
+                            >Credit Card
+                          </p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row pb-3">
+                        <div class="d-flex align-items-center pe-2">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="radioNoLabel"
+                            id="radioNoLabel2v"
+                            value=""
+                            aria-label="..."
+                          />
+                        </div>
+                        <div class="rounded border w-100 p-3">
+                          <p class="d-flex align-items-center mb-0">
+                            <i
+                              class="fab fa-cc-visa fa-2x fa-lg text-dark pe-2"
+                            ></i
+                            >Debit Card
+                          </p>
+                        </div>
+                      </div>
+                      <div class="d-flex flex-row">
+                        <div class="d-flex align-items-center pe-2">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="radioNoLabel"
+                            id="radioNoLabel3v"
+                            value=""
+                            aria-label="..."
+                          />
+                        </div>
+                        <div class="rounded border w-100 p-3">
+                          <p class="d-flex align-items-center mb-0">
+                            <i
+                              class="fab fa-cc-paypal fa-2x fa-lg text-dark pe-2"
+                            ></i
+                            >PayPal
+                          </p>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-6">
+                    <div class="row">
+                      <div class="col-12 col-xl-6">
+                        <div class="form-outline mb-4 mb-xl-5">
+                          <input
+                            type="text"
+                            id="typeName"
+                            class="form-control form-control-lg"
+                            siez="17"
+                            placeholder="John Smith"
+                          />
+                          <label class="form-label" for="typeName"
+                            >Name on card</label
+                          >
+                        </div>
+
+                        <div class="form-outline mb-4 mb-xl-5">
+                          <input
+                            type="text"
+                            id="typeExp"
+                            class="form-control form-control-lg"
+                            placeholder="MM/YY"
+                            size="7"
+                            id="exp"
+                            minlength="7"
+                            maxlength="7"
+                          />
+                          <label class="form-label" for="typeExp"
+                            >Expiration</label
+                          >
+                        </div>
+                      </div>
+                      <div class="col-12 col-xl-6">
+                        <div class="form-outline mb-4 mb-xl-5">
+                          <input
+                            type="text"
+                            id="typeText"
+                            class="form-control form-control-lg"
+                            siez="17"
+                            placeholder="1111 2222 3333 4444"
+                            minlength="19"
+                            maxlength="19"
+                          />
+                          <label class="form-label" for="typeText"
+                            >Card Number</label
+                          >
+                        </div>
+
+                        <div class="form-outline mb-4 mb-xl-5">
+                          <input
+                            type="password"
+                            id="typeText"
+                            class="form-control form-control-lg"
+                            placeholder="&#9679;&#9679;&#9679;"
+                            size="1"
+                            minlength="3"
+                            maxlength="3"
+                          />
+                          <label class="form-label" for="typeText">Cvv</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-xl-3">
+                    <div
+                      class="d-flex justify-content-between"
+                      style="font-weight: 500"
+                    >
+                      <p class="mb-2">Subtotal</p>
+                      <p class="mb-2">$71.94</p>
+                    </div>
+
+                    <hr class="my-4" />
+
+                    <div
+                      class="d-flex justify-content-between mb-4"
+                      style="font-weight: 500"
+                    >
+                      <p class="mb-2">Total (tax included)</p>
+                      <p class="mb-2">$71.94</p>
+                      
+                    </div>
+
+                    <button
+                      type="button"
+                      class="btn btn-fgreen bg-fgreen text-white btn-block btn-lg"
+                    >
+                      <div
+                        class="checkoutbtn d-flex justify-content-between p-1"
+                      >
+                        <span>Checkout</span>
+                        <span>$71.94</span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="footer text-white bg-fgreen d-flex">
+      <div class="footerheader">
+        <h5>Event Path</h5>
+      </div>
+      <div class="footernav d-flex">
+        <p>My Path</p>
+        <p>My Tickets</p>
+        <p>My Notifications</p>
+        <p>My Profile</p>
+      </div>
+    </div> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

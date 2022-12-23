@@ -158,7 +158,7 @@ $border-radius-pill: 3rem;
   color: inherit;
 }
 
-.card:hover{
+.card:hover {
   background-color: #f1f1f1;
 }
 
@@ -167,7 +167,7 @@ $border-radius-pill: 3rem;
   padding-top: 1rem;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 4rem;
   align-items: center;
@@ -175,17 +175,17 @@ $border-radius-pill: 3rem;
   gap: 10rem;
 }
 
-.footerheader{
-margin-left: 2rem;
-padding-top: 0.5rem;
+.footerheader {
+  margin-left: 2rem;
+  padding-top: 0.5rem;
 }
 
-.footernav{
+.footernav {
   gap: 3rem;
   padding-top: 1rem;
 }
 
-.epheaderimage{
+.epheaderimage {
   width: 1084px;
   display: block;
   margin-left: auto;
@@ -193,73 +193,73 @@ padding-top: 0.5rem;
   padding-top: 5rem;
 }
 
-.epdetails{
+.epdetails {
   font-family: "Rubik", sans-serif;
   padding-top: 5rem;
-  padding-left:25rem;
+  padding-left: 25rem;
 }
 
-.epsubheader{
+.epsubheader {
   gap: 6rem;
   padding-top: 2rem;
 }
 
-.subheader{
+.subheader {
   width: 650px;
 }
 
-.epheader{
+.epheader {
   font-size: 54px;
 }
 
-.ticketwidget{
+.ticketwidget {
   width: 306px;
   height: 147px;
   text-align: center;
-  border: 1px solid #EFEFEF;
+  border: 1px solid #efefef;
   background-color: white;
   border-radius: 10px;
 }
 
-.widgetcontent{
+.widgetcontent {
   padding-top: 2rem;
   font-weight: 600;
 }
 
-.ticketbtn{
+.ticketbtn {
   width: 185px;
-  height: 40px
+  height: 40px;
 }
 
-.whenandwhereheader{
+.whenandwhereheader {
   padding-top: 5rem;
   padding-left: 25rem;
   padding-bottom: 1rem;
   font-family: "Rubik", sans-serif;
 }
 
-.whenandwhere{
+.whenandwhere {
   padding-left: 25rem;
   font-family: "Rubik", sans-serif;
   gap: 5rem;
 }
 
-.when{
+.when {
   gap: 1rem;
 }
 
-.where{
+.where {
   gap: 1rem;
 }
 
-.aboutthisevent{
+.aboutthisevent {
   padding-top: 1rem;
   padding-left: 25rem;
   padding-bottom: 1rem;
   font-family: "Rubik", sans-serif;
 }
 
-.aboutthiscontent{
+.aboutthiscontent {
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   width: 1084px;
@@ -268,11 +268,25 @@ padding-top: 0.5rem;
   font-style: italic;
 }
 
-.otherevents{
+.otherevents {
   padding-top: 1rem;
   padding-left: 25rem;
   padding-bottom: 1rem;
   font-family: "Rubik", sans-serif;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+.checkout{
+  font-family: "Rubik", sans-serif;
+}
+
+.checkoutbtn{
+  gap: 1rem;
 }
 
 // import bootstrap - ALWAYS at very end

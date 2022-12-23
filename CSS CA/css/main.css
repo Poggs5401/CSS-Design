@@ -170,7 +170,7 @@
   width: 306px;
   height: 147px;
   text-align: center;
-  border: 1px solid #EFEFEF;
+  border: 1px solid #efefef;
   background-color: white;
   border-radius: 10px;
 }
@@ -227,6 +227,19 @@
   padding-left: 25rem;
   padding-bottom: 1rem;
   font-family: "Rubik", sans-serif;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+.checkout {
+  font-family: "Rubik", sans-serif;
+}
+
+.checkoutbtn {
+  gap: 1rem;
 }
 
 /*!
